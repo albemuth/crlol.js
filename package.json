@@ -1,0 +1,21 @@
+{
+  "name": "crautos-scrape",
+  "version": "0.0.0",
+  "description": "",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "q": "~1.0.1",
+    "restify": "~2.7.0"
+  },
+  "devDependencies": {
+    "should": "~3.3.0",
+    "supertest": "~0.10.0",
+    "chai": "~1.9.1"
+  }
+}

@@ -1,0 +1,5 @@
+--reporter nyan
+--ui bdd
+--recursive
+--no-colors
+

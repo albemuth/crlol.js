@@ -1,0 +1,27 @@
+# crautos.js
+
+API no oficial para crautos.com
+
+## Motivaci&oacute;n
+
+Cualquiera que ha tenido que sufrir usando esa p&aacute; entiende por que seria genial tener un API
+
+## Instalacion
+
+    git clone $REPONAME
+    cd $REPONAME
+    npm install
+    mocha
+    node app.js
+
+## TODO
+
+- deployar a heroku
+- pasar resto de parametros a search
+- incluir imagenes
+- front-end simple para realizar busquedas
+- servicio para detalle de carro
+- tests de integracion por que en cualquier momento cambian el html y se jode todo
+
+
+
