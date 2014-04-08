@@ -26,6 +26,8 @@ bolsitas de cemento para rellenar los cr&aacute;teres de sus calles.
 - front-end b&aacute; para realizar busquedas
 - servicio para detalle de carro
 - tests de integracion por que en cualquier momento cambian el html y se jode todo
+- build con grunt o lo que sea
+- lint
 
 
 
