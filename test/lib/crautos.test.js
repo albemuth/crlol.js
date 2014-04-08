@@ -19,7 +19,8 @@ describe('Search results', function() {
                 year: 2008,
                 price: 8050,
                 description: '1300cc Gasolina.',
-                transmition: 'manual'
+                transmition: 'manual',
+                image: 'http://crautos.com/clasificados/usados/41244829.jpg'
             });
 
             results[5].should.deep.equal({
@@ -27,11 +28,10 @@ describe('Search results', function() {
                 title: 'JIMNY',
                 year: 2004,
                 price: 7692,
-                transmition: 'manual'
+                transmition: 'manual',
+                image: 'http://crautos.com/clasificados/usados/11133578.jpg'
             });
 
-            console.log(JSON.stringify(_.last(results)));
-            _.last(results).transmition.should.equal('manual')
 
             done();
         });

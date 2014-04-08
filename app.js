@@ -17,10 +17,11 @@ server.get('/search', function (req, res, next) {
     }).then(function(results) {
         res.send(results);
     });
-})
+});
 
 
-server.listen(3001, function () {
+var port = process.env.PORT || 5000;
+server.listen(port, function () {
     console.log('%s listening at %s', server.name, server.url)
-})
+});
 
