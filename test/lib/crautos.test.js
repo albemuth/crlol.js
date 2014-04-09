@@ -15,23 +15,24 @@ describe('Search results', function() {
 
             first.should.deep.equal({
                 id: '41244829',
-                title: 'Suzuki - JIMNY',
-                year: 2008,
-                price: 8050,
                 description: '1300cc Gasolina.',
+                detailPage: 'http://crautos.com/usados/economicos-useddetail.cfm?c=41244829',
+                image: 'http://crautos.com/clasificados/usados/41244829.jpg',
+                price: 8050,
+                title: 'Suzuki - JIMNY',
                 transmition: 'manual',
-                image: 'http://crautos.com/clasificados/usados/41244829.jpg'
+                year: 2008
             });
 
             results[5].should.deep.equal({
                 id: '11133578',
-                title: 'JIMNY',
-                year: 2004,
+                detailPage: 'http://crautos.com/usados/economicos-useddetail.cfm?c=11133578',
+                image: 'http://crautos.com/clasificados/usados/11133578.jpg',
                 price: 7692,
+                title: 'JIMNY',
                 transmition: 'manual',
-                image: 'http://crautos.com/clasificados/usados/11133578.jpg'
+                year: 2004
             });
-
 
             done();
         });
